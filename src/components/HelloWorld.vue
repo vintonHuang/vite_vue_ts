@@ -1,3 +1,8 @@
+<!--
+ * @Author: Vinton
+ * @Date: 2022-03-04 21:17:53
+ * @Description: file content
+-->
 <script setup lang="ts">
 import { ref } from "vue";
 
@@ -27,13 +32,13 @@ const count = ref(0);
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
+  <p class="test">
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 a {
   color: #42b983;
 }
@@ -48,5 +53,8 @@ code {
   padding: 2px 4px;
   border-radius: 4px;
   color: #304455;
+}
+.test {
+  color: $test-color;
 }
 </style>
