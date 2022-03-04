@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
     "prettier": "prettier --write .",
+    "commit": "npm run prettier && git add . && git-cz",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "eslint": "^8.10.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "git-cz": "^4.8.0",
     "husky": ">=6",
     "lint-staged": ">=10",
     "mrm": "^3.0.10",

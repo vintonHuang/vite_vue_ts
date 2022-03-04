@@ -1547,6 +1547,11 @@ git-config-path@^1.0.1:
     fs-exists-sync "^0.1.0"
     homedir-polyfill "^1.0.0"
 
+git-cz@^4.8.0:
+  version "4.8.0"
+  resolved "https://registry.npmmirror.com/git-cz/-/git-cz-4.8.0.tgz#9dde589ce4e12d5aa4ee4fe54c6eef5f4635e6c3"
+  integrity sha512-2muVkIcT6cT/9eXuxztlKQSRiOy/oHhFldCySOi1xuRJ9T5yHlg3SRQhVLoY9BVu9kxSE3YcHYp0KgQW0vUf4A==
+
 git-username@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/git-username/-/git-username-1.0.0.tgz"
